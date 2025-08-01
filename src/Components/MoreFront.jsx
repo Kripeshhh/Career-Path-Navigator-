@@ -18,7 +18,7 @@ const MoreFront = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br p-8 text-gray-100">
+    <div className="min-h-screen bg-gradient-to-br p-8 text-gray-100  overflow-x-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-gray-900 scroll-smooth">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 mb-8">
           What's Next After HTML, CSS & JavaScript?

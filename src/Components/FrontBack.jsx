@@ -9,7 +9,7 @@ const FrontBack = () => {
   if (view === "back") return <Back goBack={() => setView(null)} />;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br flex items-center justify-center p-8">
+    <div className="min-h-screen bg-gradient-to-br flex items-center justify-center p-8 overflow-x-hidden overflow-y-hidden">
       <div className="max-w-2xl w-full space-y-8 text-center">
         <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400 mb-10">
           Choose Your Path
